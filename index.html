@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aada</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Karine Vazquez">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/camera.css" type="text/css" media="screen"> 
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+    <script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/camera.js"></script>
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+    <!--<![endif]-->
+	<script>
+	  	$(document).ready(function(){
+			jQuery('.camera_wrap').camera();
+		});
+		$(window).load(function(){
+		  $().UItoTop({ easingType: 'easeOutQuart' });
+		})
+	</script>	
+	<!--[if lt IE 8]>
+  		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+ 	<![endif]-->
+  
+
+  	<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+  <![endif]-->
+</head>
+
+<body>
+<div class="main">
+    <!--==============================header=================================-->
+    <header>
+      <div class="container">
+          <div class="navbar navbar_ clearfix">
+             <div class="navbar-inner">      
+                <h1 class="brand"><a href="index.html"><img src="img/logo.png" alt="" ></a></h1> 
+                <address class="text-17"><span>São José dos Campos - SP</span> <strong>Tel: 12- 9999-9999</strong></address>
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse_">menu</a>                                              
+                <div class="nav-collapse nav-collapse_ collapse">
+                    <ul class="nav sf-menu">
+                      <li class="active"><a href="index.html" class="m1">Home</a></li>
+                      <li><a href="index-1.html" class="m2">Sobre</a>
+                      <!--<li class="sub-menu"><a href="index-1.html" class="m2">Sobre</a>-->
+                        <!--<ul>
+                          <li><a href="#">Lorem ipsum</a></li>
+                          <li><a href="#">Dolor sit</a></li>
+                          <li><a href="#">Amet conse</a></li>
+                          <li><a href="#">Ctetur</a></li>
+                          <li><a href="#">Adipisicing elit</a></li>
+                          <li><a href="#">Sed do</a></li>
+                          <li><a href="#">Eiusmod tempor</a></li>
+                        </ul>-->
+                      </li>
+                      <li><a href="index-2.html" class="m3">Caridade</a></li>
+                      <li><a href="index-3.html" class="m4">Programas</a></li>
+                      <!--<li><a href="index-4.html" class="m5">FAQs</a></li>-->
+                      <li><a href="index-5.html" class="m6">Contatos</a></li>
+                    </ul>
+                </div>
+              </div>  
+            </div>
+        </div>
+    </header>
+    <!--==============================content=================================-->
+    <div id="content">
+      <div class="container">
+        <div class="row">
+           <div class="span12">        
+              <div class="slider">
+                <div class="camera_wrap">
+                    <div data-src="img/slide1.jpg"></div>
+                    <div data-src="img/slide2.jpg"></div>
+                    <div data-src="img/slide3.jpg"></div>
+                    <div data-src="img/slide4.jpg"></div>
+                </div>
+              </div>
+           </div>
+        </div>
+        <div class="row">
+        	<ul class="block1">
+              <li class="span4">
+                <div class="block1-1 shadow">
+                	<div class="clearfix">
+                    	<img src="img/page1-icon1.png" alt="">
+                        <h2>Missão &amp; Serviços</h2>
+                    </div>
+                    <p>Nossa missão é dar visibilidade a causa autista, com intuito de ajudar as crianças necessitadas.</p>
+                    <!--<a href="#" class="btn btn_">more &gt;</a>-->
+                </div>
+              </li>
+              <li class="span4">
+                <div class="block1-2 shadow">
+                	<div class="clearfix">
+                    	<img src="img/page1-icon2.png" alt="">
+                        <h2>Fazer Doações</h2>
+                    </div>
+                    <p>Contamos com uma grande equipe de apoiadores, sendo ela empresas, pessoas que contribuem com a causa. Seja nosso parceiro!</p>
+                    <!--<a href="#" class="btn btn_">more &gt;</a>-->
+                </div>
+              </li>
+              <li class="span4">
+                <div class="block1-3 shadow">
+                	<div class="clearfix">
+                    	<img src="img/page1-icon3.png" alt="">
+                        <h2>Programas</h2>
+                    </div>
+                    <p>Nosso intuito é ajudar o máximo de crianças carentes autistas, disponibilizando serviços de aprendizagem e inclusão.</p>
+                    <!--<a href="#" class="btn btn_">more &gt;</a>-->
+                </div>
+              </li>
+           </ul>   
+        </div>
+        <div class="row">
+        	<div class="span8">
+            	<div class="shadow-block white">
+                	<div class="block-indent">
+                    	<h2>Sobre nós</h2>
+                        <p class="lead">Somos uma ONG (Organização não governamental) que conta com ajuda de várias parceirias para que possamos ajudar crianças com o autismo e dar visibilidade a causa.</p>
+                        <ul class="list-about">
+                            <li>
+                                <img src="img/page1-img1.jpg" alt="" />
+                                <div>
+                                    <p class="text-info">Projeto de educação infantil</p>
+                                    Listar todo o escopo do projeto com as crianças com autismo. <!--<a href="#" class="link link-blue">more &gt;</a>-->
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/page1-img2.jpg" alt="" />
+                                <div>
+                                    <p class="text-info">Projeto de Desenvolvimento</p>
+                                    Listar todo o escopo do projeto com as crianças com autismo. <!--<a href="#" class="link link-blue">more &gt;</a>-->
+                                </div>
+                            </li>
+                        </ul>
+                        <!--<a href="#" class="link">more about us &gt;</a>-->
+                    </div>
+                </div>        
+            </div>
+            <div class="span4">
+            	<div class="shadow-block blue">
+                	<div class="block-indent">
+                    	<h2>Últimas notícias</h2>
+                        <ul class="list-news">
+                          <li>
+                            <a href="#" class="time"><time datetime="2012-12-12">12 Dez, 2022</time></a><br>
+                            Falar aqui sobre os projetos de desenvolvimento infantil. <!--<a href="#" class="link link-white">more &gt;</a>-->
+                          </li>
+                          <li>
+                            <a href="#" class="time"><time datetime="2012-12-12">12 Dez, 2022</time></a><br>
+                            Falar aqui sobre os projetos de desenvolvimento infantil. <!--<a href="#" class="link link-white">more &gt;</a>-->
+                          </li>
+                        </ul>
+                        <!--<a href="#" class="link link-yellow">see all news &gt;</a>-->
+                    </div>
+                </div>   
+                </div>             
+            </div>
+        </div>
+      </div> 
+    </div>
+    <!--==============================footer=================================-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+          	<ul class="footer-menu">
+            	<li class="current"><a href="index.html">Home</a></li>
+                <li><a href="index-1.html">Sobre</a></li>
+                <li><a href="index-2.html">Caridade</a></li>
+                <li><a href="index-3.html">Programas</a></li>
+                <!--<li><a href="index-4.html">FAQs</a></li>-->
+                <li><a href="index-5.html">Contatos</a></li>
+            </ul>
+            <p></p>
+          	<ul class="social-icons">
+              <li><a href="#"><img src="img/icon-1.png" alt=""></a></li>
+              <li><a href="#"><img src="img/icon-2.png" alt=""></a></li>
+              <li><a href="#"><img src="img/icon-3.png" alt=""></a></li>
+            </ul><br>
+            Copyright 2017 KS Tech. All rights reserved.<!-- {%FOOTER_LINK} -->
+          </div>
+        </div>  
+      </div>
+    </footer>
+</div>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
